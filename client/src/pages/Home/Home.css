@@ -1,0 +1,33 @@
+
+.header{
+	padding:18px 20px;
+	border-bottom: 2px solid black;
+}
+#title{
+	text-align: center;
+	margin: 200px 0 150px 0;
+}
+#greenDiv{
+	height: 100px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #d4ffad;
+}#pinkDiv{
+	height: 100px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #d4ffad;
+}
+.stepDiv{
+	border-top: 1px solid black;
+	width: 90%;
+	margin: 10px auto;
+}
+
+
+
+/*----------google font-------------------*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*----------google font-------------------*/
