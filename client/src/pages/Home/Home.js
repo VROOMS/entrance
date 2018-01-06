@@ -31,12 +31,12 @@ class Home extends Component {
   // }
 
   openGithubJin = () =>{
-      window.open("https://www.w3schools.com");
+      window.open("https://github.com/jinredhub");
   };
 
 
   openGithubMatt = () =>{
-    window.open("https://www.w3schools.com");
+    window.open("https://github.com/metaversedance");
   };
 
   render(){
@@ -54,7 +54,7 @@ class Home extends Component {
             <div id="title">
               <h1>Simulate your room</h1>
               <p>design and visualize your dream room</p>
-              <a className="btn btn-primary"  href="https://vrooms-editor.herokuapp.com/" target="_blank"><strong>start here</strong></a>
+              <a className="btn btn-primary btn-lg"  href="https://vrooms-editor.herokuapp.com/"><strong>start here</strong></a>
             </div>
           </Col>
         </Row>
@@ -68,7 +68,7 @@ class Home extends Component {
           <div className="stepDiv">
             <h5>step 1</h5>
             <ul>
-              <li>Draw a shape of your room.</li>
+              <li>Click and drag a shape of your room.</li>
               <li>Place the furniture of your choice into the room and fit them to the exact measurments of your room.</li>
             </ul>
           </div>
@@ -82,6 +82,7 @@ class Home extends Component {
             <h5>step 2</h5>
             <ul>
               <li>Visit your room in 360 degree virtual reality environment.</li>
+              <li>The position of the furniture will update reltime. Have someone else arrange furniture while in VR.</li>
             </ul>
           </div>
 
@@ -94,8 +95,8 @@ class Home extends Component {
           Jin Redmond
           <button className="btn rounded-circle btn-secondary linkedIn-btn" onClick={this.openGithubJin}>
             <i className="fa fa-github-alt" aria-hidden="true"></i>
-          </button> 
-          Matt
+          </button> &nbsp;
+          Matt Hoe
           <button className="btn rounded-circle btn-secondary github-btn" onClick={this.openGithubMatt}>
             <i className="fa fa-github-alt" aria-hidden="true"></i>
           </button></p>
