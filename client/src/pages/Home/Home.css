@@ -1,29 +1,68 @@
 
+#logoDiv{
+	text-align: center;
+	/*background-color: #1b1c1d;*/
+}
+#logo{
+	height: 40px;
+	margin: 10px 0;
+}
 .header{
+	width: 100%;
 	padding:18px 20px;
 	border-bottom: 2px solid black;
+	position: fixed;
+	top: 0;
+	background-color: #ffffff;
+	z-index: 1;
 }
 #title{
 	text-align: center;
-	margin: 200px 0 150px 0;
-}
-#greenDiv{
-	height: 100px;
-	width: 90%;
-	margin: 0 auto;
-	background-color: #d4ffad;
-}#pinkDiv{
-	height: 100px;
-	width: 90%;
-	margin: 0 auto;
-	background-color: #d4ffad;
-}
-.stepDiv{
-	border-top: 1px solid black;
-	width: 90%;
-	margin: 10px auto;
+	margin: 200px 0 200px 0;
 }
 
+#greenDiv{
+	height: 95px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #d4ffad;
+	text-align: center;
+	border-top: 1px solid black;
+}
+#pinkDiv{
+	height: 95px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #c4fdff;
+	text-align: center;
+	border-top: 1px solid black;
+}
+.stepDiv{
+	/*border-top: 1px solid black;*/
+	width: 90%;
+	margin: 10px auto 100px auto;
+}
+#icon1{
+	position: relative;
+	top: -109px;
+	height: 200px;
+}
+#icon2{
+	position: relative;
+	top: -110px;
+	height: 200px;
+}
+#footerContainer{
+	background-color: #1b1c1d;
+	text-align: center;
+}
+#footerContent{
+	padding: 50px 0;
+	/*background-color: #1b1c1d;*/
+}
+.white-font{
+	color: white;
+}
 
 
 /*----------google font-------------------*/
