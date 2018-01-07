@@ -1,10 +1,9 @@
 
 #logoDiv{
 	text-align: center;
-	/*background-color: #1b1c1d;*/
 }
 #logo{
-	height: 40px;
+	height: 30px;
 	margin: 10px 0;
 	cursor: pointer;
 }
