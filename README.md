@@ -1,32 +1,18 @@
-# NYT-react
+# Simulate your room 
 
 ## visit website
 
-https://nytime-react.herokuapp.com/
+https://vrooms.github.io/entrance/
 
 ## About This App
 
-This app will allow user to sarch articles from NYTimes database. User also can save articels.
+This app is the entrance page of Simulate your room.
+The app allows user to place the funiture of your choice into the room,
+then view it in 360 degree virtual reality environmrnt.
 
-## Starting the app locally
+This app is consist of 2 other project.
+These are the github link to the other part of the project
 
-Run the following coomand While in this directory
+Editor: https://github.com/VROOMS/frameYourRoom
 
-```
-yarn start
-```
-
-## Deploy to Heroku
-
-1. Create Heroku app
-
-2. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-
-3. Add and commit all changes to git
-
-4. Push to Heroku
-
+Viewer: https://github.com/VROOMS/vr-room
