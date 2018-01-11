@@ -29,7 +29,7 @@
 	text-align: center;
 	border-top: 1px solid black;
 }
-#pinkDiv{
+#bluekDiv{
 	height: 95px;
 	width: 90%;
 	margin: 0 auto;
@@ -70,3 +70,11 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 /*----------google font-------------------*/
+@media only screen and (max-width: 767px){
+	#greenDiv{
+		width: 100%;
+	}
+	#bluekDiv{
+		width: 100%;
+	}
+}
