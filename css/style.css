@@ -55,10 +55,10 @@
 #footerContainer{
 	background-color: #1b1c1d;
 	text-align: center;
+	width: 100%;
 }
 #footerContent{
 	padding: 50px 0;
-	/*background-color: #1b1c1d;*/
 }
 .white-font{
 	color: white;
