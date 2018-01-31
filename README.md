@@ -6,7 +6,6 @@ https://vrooms.github.io/entrance/
 
 ## About This App
 
-This app is the entrance page of Simulate your room.
 The app allows user to place the furniture of your choice into the room,
 then view it in 360 degree virtual reality environmrnt.
 
