@@ -10,3 +10,9 @@ jingit.addEventListener("click", function(){
 
 // wake up heroku
 $.ajax({url: "https://vrooms-editor.herokuapp.com/"});
+
+// initiate wow.js
+new WOW({
+  mobile: false,
+  offset:  50
+}).init();
