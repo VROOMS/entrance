@@ -5,84 +5,93 @@
         <title>simulate your room</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!-- google fonts -->
-	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-	        <!-- bootstrap -->
-	    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-	    <!-- animated css-->
-	    <link rel="stylesheet" type="text/css" href="css/animate.css">
-		
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">		
     </head>
     <body>
-    	<div class="container-fluid">
-	        <div id="logoDiv">
-	          <img id="logo" src="./images/logo.png" />
-	        </div>
-	        <div class="row">
-	          <div class="col-12">
-	            <div id="title">
-	              <h1>Simulate your room</h1>
-	              <p>design and visualize your dream room</p>
-	              <a class="btn btn-primary btn-lg animated pulse infinite"  href="https://vrooms-editor.herokuapp.com/" ><strong>start here</strong></a>
-	            </div>
-	          </div>
-	        </div>
+		<header class='headerContainer'>
+		    <div class="logoContainer">
+		        <img class="logo" src="./images/logo.png" />
+		    </div>
+            <div class="titleContainer">
+                <h1>Simulate your room</h1>
+                <p>design and visualize your dream room</p>
+                <br>
+                <a class="actionBtn"  href="https://vrooms-editor.herokuapp.com/" ><strong>start here</strong></a>
+            </div>
+		</header>
 
+        <section class='feature'>
+        	<div class='feature__item'>
+        		<img src="./images/featurePictures/Coffee_table.jpg" alt='Coffee_table'>
+        		<div class='feature__item__content'>
+        			<img src="./images/featurePictures/table.jpg" alt='Coffee_table in VR'>
+        		</div>
+        	</div>
+        	<div class='feature__item'>
+        		<img src="./images/featurePictures/KARLS_Sofa_prod.jpg" alt='couch'>
+        		<div class='feature__item__content'>
+        			<img src="./images/featurePictures/couch.jpg" alt='couch in VR'>
+        		</div>
+        	</div>
+        	<div class='feature__item'>
+        		<img src="./images/featurePictures/sauderDesk_prod.png" alt='chair'>
+        		<div class='feature__item__content'>
+        			<img src="./images/featurePictures/chair.jpg" alt='chair in VR'>
+        		</div>
+        	</div>
+        	<div class='feature__item'>
+        		<img src="./images/featurePictures/Picture_A_prod.png" alt='pictureFrame'>
+        		<div class='feature__item__content'>
+        			<img src="./images/featurePictures/pictureFrame.jpg" alt='pictureFrame in VR'>
+        		</div>
+        	</div>
+        </section>
 
-	    	<div class="row">
-	          <div id="greenDiv">
-	            <img id="icon1" src="./images/icon1.png" alt="icon1" />
-	          </div>
+    	<section class="instruction">
+          <div class='instruction__imgContainerFirst'>
+            <img class='instruction__imgContainerFirst__img' src="./images/icon1.png" alt="icon1" />
+          </div>
+          <div class='instruction__step'>
+            <h2>step 1</h2>
+            <ul>
+              <li>Click and drag a shape of your room.</li>
+              <li>Place the furniture of your choice into the room and fit them to the exact measurments of your room.</li>
+            </ul>
+          </div>
 
-	          <div class="stepDiv wow fadeInLeft">
-	            <h5>step 1</h5>
-	            <ul>
-	              <li>Click and drag a shape of your room.</li>
-	              <li>Place the furniture of your choice into the room and fit them to the exact measurments of your room.</li>
-	            </ul>
-	          </div>
+          <div class='instruction__imgContainerSecond'>
+            <img class='instruction__imgContainerSecond__img' src="./images/icon2.png" alt="icon2" />
+          </div>
+          <div class='instruction__step'>
+            <h2>step 2</h2>
+            <ul>
+              <li>Visit your room in 360 degree virtual reality environment.</li>
+              <li>The position of the furniture will update reltime. Have someone else arrange furniture while in VR.</li>
+            </ul>
+          </div>
+	    </section>
 
-
-	          <div id="bluekDiv">
-	            <img id="icon2" src="./images/icon2.png" alt="icon2" />
-	          </div>
-
-	          <div class="stepDiv wow fadeInLeft">
-	            <h5>step 2</h5>
-	            <ul>
-	              <li>Visit your room in 360 degree virtual reality environment.</li>
-	              <li>The position of the furniture will update reltime. Have someone else arrange furniture while in VR.</li>
-	            </ul>
-	          </div>
-
-		     </div>
-
-			<div class="row">
-				<div id="footerContainer">
-					<div id="footerContent">
-					  <p class="white-font">
-					  Jin Redmond
-					  <button class="btn rounded-circle btn-secondary linkedIn-btn" id="jinGithub">
-					    <i class="fa fa-github-alt" aria-hidden="true"></i>
-					  </button> &nbsp;
-					  Matt Hoe
-					  <button class="btn rounded-circle btn-secondary github-btn" id="mattGithub">
-					    <i class="fa fa-github-alt" aria-hidden="true"></i>
-					  </button></p>
-					  <p class="white-font">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2018</p>
-					</div>
-				</div>  
+		<footer class="footerContainer">
+			<div class="footerContent">
+				<p class="white-font">
+				Jin Redmond
+				<button class="footerContent__githubBtn" id="jinGithub">
+					<i class="fa fa-github-alt" aria-hidden="true"></i>
+				</button> &nbsp;
+				Matt Hoe
+				<button class="footerContent__githubBtn" id="mattGithub">
+					<i class="fa fa-github-alt" aria-hidden="true"></i>
+				</button></p>
+				<p class="white-font">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2018</p>
 			</div>
-
-	    </Container>
-
+		</footer>  
 
 
-  </div>
+
+
 
   	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- wow.js -->
-	<script src="js/wow.min.js"></script>
  	<script type="text/javascript" src="./js/main.js"></script>
 	<!-- font awesome -->
     <script src="https://use.fontawesome.com/8e6cc3d474.js"></script>
