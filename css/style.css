@@ -117,10 +117,10 @@ li{
 	text-decoration: none;
 	cursor: pointer;
 	border-radius: 50%;
-	/*font-size: 1.2rem;*/
 	width: 36px;
 	height: 36px;
 	transition: transform 0.4s;
+	font-size: 0.9rem;
 }
 .footerContent__githubBtn:hover{
 	background-color: #59697a;
