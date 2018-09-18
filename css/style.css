@@ -64,10 +64,47 @@ li{
 	background-color: #b4d02f;
 }
 
+
 .instruction{
-	padding-top: 170px;
+	padding-top: 50px;
+	overflow-x: hidden;
 }
-.instruction__imgContainerFirst{
+.instruction__belt{
+	padding-top: 100px;
+	width: 200%;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: left 0.4s;
+}
+.instruction__belt__step1{
+	width: 100%;
+}
+.instruction__belt__step2{
+	width: 100%;
+}
+.instruction__stepButtonContainer{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+}
+.instruction__stepButtonContainer__item{
+	flex: 1 1 auto;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+.instruction__stepButtonContainer__item:first-child{
+	border-right: 1px dashed #aaa;
+}
+.active{
+	color: #2090ab;
+}
+
+.instruction__belt__step1__imgContainer{
 	height: 95px;
 	width: 90%;
 	margin: 0 auto;
@@ -75,7 +112,7 @@ li{
 	text-align: center;
 	border-top: 1px solid black;
 }
-.instruction__imgContainerSecond{
+.instruction__belt__step2__imgContainer{
 	height: 95px;
 	width: 90%;
 	margin: 0 auto;
@@ -83,22 +120,34 @@ li{
 	text-align: center;
 	border-top: 1px solid black;
 }
-.instruction__step{
-	/*border-top: 1px solid black;*/
+.instruction__belt__step{
 	width: 80%;
-	margin: 10px auto 120px auto;
+	margin: 30px auto 100px auto;
+	display: flex;
 }
-.instruction__imgContainerFirst__img{
+.instruction__belt__step__text{
+	margin-right: 20px;
+	flex: 1;
+}
+.instruction__belt__step__imgContainer{
+	flex: 1;
+}
+.instruction__belt__step__imgContainer img{
+	width: 100%;
+	border: 1px solid #444;
+}
+.instruction__belt__step1__imgContainer__img{
 	position: relative;
 	top: -109px;
 	height: 200px;
 }
 
-.instruction__imgContainerSecond__img{
+.instruction__belt__step2__imgContainer__img{
 	position: relative;
 	top: -110px;
 	height: 200px;
 }
+
 
 
 .footerContainer{
@@ -165,10 +214,10 @@ body{
 }
 /*----------end google font-------------------*/
 @media only screen and (max-width: 767px){
-	.instruction__imgContainerFirst{
+	.instruction__belt__step1__imgContainer{
 		width: 100%;
 	}
-	.instruction__imgContainerSecond{
+	.instruction__belt__step2__imgContainer{
 		width: 100%;
 	}
 
@@ -177,5 +226,16 @@ body{
 	}
 	.feature__item{
 		flex: 1 1 50%;
+	}
+	.instruction__belt__step{
+		flex-wrap: wrap;
+	}
+	.instruction__belt__step__text{
+		margin-right: 0;
+		flex: 1 1 100%;
+	}
+	.instruction__belt__step__imgContainer{
+		flex: 1 1 100%;
+		margin-top: 30px;
 	}
 }
