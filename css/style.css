@@ -96,6 +96,7 @@ li{
 	align-items: center;
 	font-size: 1.4rem;
 	cursor: pointer;
+	text-decoration: underline;
 }
 .instruction__stepButtonContainer__item:first-child{
 	border-right: 1px dashed #aaa;
