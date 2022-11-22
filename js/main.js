@@ -1,16 +1,3 @@
-// const mattgit = document.querySelector("#mattGithub");
-// mattgit.addEventListener("click", function(){
-//     window.open("https://github.com/metaversedance");
-// })
-
-// const jingit = document.querySelector("#jinGithub");
-// jingit.addEventListener("click", function(){
-//       window.open("https://github.com/jinredhub");
-// })
-
-// wake up heroku
-$.ajax({url: "https://vrooms-editor.herokuapp.com/"});
-
 // add active class to current button and move belt
 const stepBtnContainer = document.querySelector('.instruction__stepButtonContainer');
 const stepBtns = document.querySelectorAll('.instruction__stepButtonContainer__item');
